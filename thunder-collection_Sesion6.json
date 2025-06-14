@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Sesion6",
+    "collectionId": "5c6b0711-19ac-48fa-b0ed-ad0e56f78059",
+    "dateExported": "2025-06-14T03:42:56.054Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f98bdea6-7016-4091-9b94-c973ddc08f39",
+            "colId": "5c6b0711-19ac-48fa-b0ed-ad0e56f78059",
+            "containerId": "",
+            "name": "Crear un nuevo medico",
+            "url": "http://localhost:3000/api/medicos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-06-13T02:18:33.484Z",
+            "modified": "2025-06-14T03:33:51.277Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\": \"Elizabeth\",\n    \"apellido\": \"Olsen\",\n    \"especialidad\": \"Cirugía de corazón\",\n    \"licencia\": \"asdfasdq23r\",\n    \"telefono\": \"31457636161\",\n    \"email\": \"lolsen@uniminutomedicos.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "82788395-c16a-4a7b-aea5-7229bc432f7b",
+            "colId": "5c6b0711-19ac-48fa-b0ed-ad0e56f78059",
+            "containerId": "",
+            "name": "Obtener todos los médicos",
+            "url": "http://localhost:3000/api/medicos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-06-13T02:20:57.685Z",
+            "modified": "2025-06-14T02:26:04.873Z",
+            "headers": []
+        },
+        {
+            "_id": "70dc4f1b-ec16-44a3-8c05-167339306917",
+            "colId": "5c6b0711-19ac-48fa-b0ed-ad0e56f78059",
+            "containerId": "",
+            "name": "Obtener un médico por ID",
+            "url": "http://localhost:3000/api/medicos/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-06-13T02:24:05.250Z",
+            "modified": "2025-06-14T02:26:22.561Z",
+            "headers": []
+        },
+        {
+            "_id": "6f5f51dd-d5b9-4123-8cb3-1e652acbcfa9",
+            "colId": "5c6b0711-19ac-48fa-b0ed-ad0e56f78059",
+            "containerId": "",
+            "name": " Actualizar un médico por ID",
+            "url": "http://localhost:3000/api/medicos/1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2025-06-13T02:31:52.357Z",
+            "modified": "2025-06-14T02:31:50.357Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"telefono\": \"3167892387\",\n    \"email\": \"jsnchezt@medicosuniminuto.edu.co\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c5f8e0e0-43d7-48b3-8b87-b9bd520cf6a8",
+            "colId": "5c6b0711-19ac-48fa-b0ed-ad0e56f78059",
+            "containerId": "",
+            "name": "Eliminar un médico por ID",
+            "url": "http://localhost:3000/api/medicos/1",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2025-06-13T02:33:26.395Z",
+            "modified": "2025-06-14T02:26:41.132Z",
+            "headers": []
+        }
+    ],
+    "ref": "1FjAtGukG1KAWYDVmCj9aOClJpMqXA_taWq8Ohv_dcEtULR3QIE3hQbU5OxMiS4NIMieA9mEPUVs_Z-QQpx90g"
+}

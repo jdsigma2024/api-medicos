@@ -44,6 +44,16 @@ Para ejecutar la aplicación desde la línea de comandos, navega hasta el direct
 node server.js
 ```
 
+![Ejecucion comando](docs/ejecutar_comando.jpg)
+
+### Ejecución desde cliente HTTP
+
+Se sugiere utilizar el plugin Thunder Client para ejecutar las peticiones HTTP de tipo GET, POST, PUT y DELETE de la información de médicos:
+
+![Ejecucion cliente http](docs/ejecutar.jpg)
+
+Nota: para mayor información importe el archivo thunder-collection_Sesion6 que representa la colección Thunder Client y ejecutar cada operación del proyecto.
+
 ## Dependencias
 
 Las dependencias del proyecto se gestionan desde el archivo package.json del proyecto.
